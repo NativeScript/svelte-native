@@ -5,7 +5,7 @@
 
 	export let handle_select;
 
-	const { components, selected, request_focus } = getContext('REPL');
+	let { components, selected, request_focus } = getContext('REPL');
 
 	let editing = null;
 
